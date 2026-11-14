@@ -7,7 +7,7 @@ Live: https://onoureman.github.io
 Plain HTML, CSS and JavaScript, with no build step. Dark/light theme, responsive.
 
 - `index.html`: page content (about, skills, experience, certifications, contact)
-- `assets/projects.js`: project and repository data for the Projects grid
+- `assets/projects.js`: all projects (LinkedIn, GitHub and others); `media` picks a screenshot, the QAST logo or the GitHub mark
 - `assets/img/`: project screenshots (WebP, 1200×750)
 - `assets/cv/`: downloadable CVs
 
