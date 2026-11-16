@@ -46,6 +46,10 @@ svg.fill{fill:currentColor;stroke:none}
 .hero{background:var(--soft);padding:72px 0;border-bottom:1px solid var(--hairline)}
 .hero-grid{display:grid;grid-template-columns:1.25fr .9fr;gap:56px;align-items:center}
 .hero-grid>*{min-width:0}
+.hero-id{display:flex;align-items:center;gap:16px;margin:0 0 20px}
+.hero-id .eyebrow{margin:0}
+.avatar{width:88px;height:88px;border-radius:50%;object-fit:cover;border:3px solid var(--canvas);box-shadow:0 0 0 1px var(--hairline);flex:none}
+@media (max-width:600px){.avatar{width:72px;height:72px}.hero-id{gap:12px}}
 .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:500;color:var(--ink-2);margin:0 0 20px}
 .dot{width:8px;height:8px;border-radius:50%;background:var(--forest)}
 [data-theme="dark"] .dot{background:#6fae7c}
